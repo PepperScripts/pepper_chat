@@ -40,3 +40,14 @@ files {
 dependencies {
     'oxmysql',
 }
+
+-- Offener Quellcode: Wird die Ressource über das Cfx.re Portal ausgeliefert, bleibt alles lesbar und änderbar.
+escrow_ignore {
+    'config.lua',
+    'config_server.lua',
+    'client/*.lua',
+    'server/*.lua',
+    'shared/*.lua',
+    'locales/*.json',
+    'install/*.sql',
+}
