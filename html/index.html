@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Pepper Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="banner" class="banner" hidden>
+        <div id="banner-title" class="banner-title"></div>
+        <div id="banner-text" class="banner-text"></div>
+    </div>
+
+    <div id="chat" class="chat idle">
+        <div id="tabs" class="tabs"></div>
+        <div id="tools" class="tools" hidden></div>
+        <div id="messages" class="messages"></div>
+        <div id="mutes" class="panel" hidden></div>
+        <div class="entry">
+            <div id="suggestions" class="suggestions" hidden></div>
+            <div class="inputrow">
+                <span id="chan" class="chan"></span>
+                <input id="input" type="text" autocomplete="off" spellcheck="false">
+                <span id="count" class="count"></span>
+            </div>
+            <div id="hint" class="hint"></div>
+        </div>
+    </div>
+
+    <div id="context" class="context" hidden></div>
+    <script src="app.js"></script>
+</body>
+</html>
